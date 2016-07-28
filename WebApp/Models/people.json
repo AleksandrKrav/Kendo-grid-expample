@@ -1,0 +1,74 @@
+[
+	{
+		"Id" : 1,
+		"Name" : "Alex",
+		"Surname" : "Kravchuk",
+		"Mobile_Number" : "+380635253443",
+		"Email" : "alex@gmail.com",
+		"Skype" : "alex123",
+		"University" : "KPI"	
+	},
+	{
+		"Id" : 2,
+		"Name" : "Sasha",
+		"Surname" : "Kuznecov",
+		"Mobile_Number" : "+380678980909",
+		"Email" : "sasha@gmail.com",
+		"Skype" : "sasha78",
+		"University" : "NAU"	
+	},
+	{
+		"Id" : 3,
+		"Name" : "Kolya",
+		"Surname" : "Denisenko",
+		"Mobile_Number" : "+380738529636",
+		"Email" : "kolya@gmail.com",
+		"Skype" : "kolya123",
+		"University" : "NTU"	
+	},
+	{
+		"Id" : 4,
+		"Name" : "Petro",
+		"Surname" : "Ovchar",
+		"Mobile_Number" : "+3801234332",
+		"Email" : "petr@gmail.com",
+		"Skype" : "apetr123",
+		"University" : "KPI"	
+	},
+	{
+		"Id" : 5,
+		"Name" : "Alena",
+		"Surname" : "Lopatyk",
+		"Mobile_Number" : "+380684885759",
+		"Email" : "alena@gmail.com",
+		"Skype" : "alena123",
+		"University" : "KROK"	
+	},
+	{
+		"Id" : 6,
+		"Name" : "Sveta",
+		"Surname" : "Nechay",
+		"Mobile_Number" : "+380962334545",
+		"Email" : "sveta@gmail.com",
+		"Skype" : "sveta23",
+		"University" : "KNUBA"	
+	},
+	{
+		"Id" : 7,
+		"Name" : "Vlad",
+		"Surname" : "NIkolachuk",
+		"Mobile_Number" : "+38067987866",
+		"Email" : "vlad@gmail.com",
+		"Skype" : "vlad123",
+		"University" : "KPI"	
+	},
+	{
+		"Id" : 8,
+		"Name" : "Oleg",
+		"Surname" : "Gillyaka",
+		"Mobile_Number" : "+380993216565",
+		"Email" : "oleg@gmail.com",
+		"Skype" : "oleg123",
+		"University" : "KPI"	
+	}
+]

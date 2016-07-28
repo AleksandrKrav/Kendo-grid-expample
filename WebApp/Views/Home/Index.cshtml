@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html ng-app="personInfoApp">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>  
+
+    <link rel="stylesheet" href="~/Content/kendo.common.min.css" />
+    <link rel="stylesheet" href="~/Content/kendo.default.min.css" />
+    <link rel="stylesheet" href="~/Content/kendo.default.mobile.min.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css"/>
+    
+    
+
+    <script src="~/Scripts/jquery.min.js"></script>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/kendo.all.min.js"></script>
+    <script src="~/Scripts/app/controllers/PersonCtrl.js"></script>
+
+</head>
+<body> 
+    <div class="container" ng-controller="MyCtrl">
+        <div class="row">
+            <fieldset>
+                <legend>Information People</legend>
+            </fieldset>
+            <button type="button" style="margin-bottom: 20px;" class="btn btn-default" ng-click="mainGridOptions()">Click me!</button>
+            <div class="k-content wide">
+                <div id="grid"></div>
+            </div>
+        </div>
+        <div class="row">
+            <form id="myForm" class="form-inline" kendo-validator="validator" ng-submit="validate($event)">
+                <div class="form-group ">
+                    <label for="number" class="required">Number</label>
+                    <input type="text" id="number" name="number" ng-model="number" class="k-textbox" placeholder="Number" required validationMessage="Enter {0}" />
+                </div>
+                <div class="form-group ">
+                    <label for="string" class="required">String</label>
+                    <input type="text" id="string" name="string" ng-model="string" class="k-textbox" placeholder="String" required validationMessage="Enter {0}" />
+                </div>
+                <button id="confirmButton" class="btn btn-primary" type="submit">Submit</button>
+            </form>
+         </div>            
+     </div>  
+</body>
+</html>
