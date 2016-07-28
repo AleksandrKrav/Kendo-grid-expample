@@ -59,4 +59,7 @@ C:\Users\Alexandr\Documents\Visual Studio 2015\Projects\WebApp\WebApp\obj\Debug\
 C:\Users\Alexandr\Documents\Visual Studio 2015\Projects\WebApp\WebApp\bin\System.Web.Cors.dll
 C:\Users\Alexandr\Documents\Visual Studio 2015\Projects\WebApp\WebApp\bin\System.Web.Http.Cors.dll
 C:\Users\Alexandr\Documents\Visual Studio 2015\Projects\WebApp\WebApp\bin\System.Web.Http.Cors.xml
+<<<<<<< HEAD
 C:\Users\Alexandr\documents\visual studio 2015\Projects\WebApp\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
+=======
+>>>>>>> caf6244a14c1b737b67a0ad30dc046489e0cbf0a

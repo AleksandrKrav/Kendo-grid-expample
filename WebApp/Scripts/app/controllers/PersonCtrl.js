@@ -1,8 +1,10 @@
+﻿
 ﻿per.controller("MyCtrl", ['$scope', '$http', function ($scope, $http) {
     var wnd, detailsTemplate;
 
     $scope.mainGridOptions = function () {
          angular.element("#grid").kendoGrid({
+
             dataSource: {
                 transport: {
                     read: "/api/HomeApi/Get",
@@ -24,7 +26,9 @@
                 pageSize: 3,
                 scrollable: false
             },
+
             dataBound: onDataBound,
+
             filterable: true,
             sortable: true,
             pageable: true,
@@ -69,22 +73,26 @@
         if ($scope.validator.validate()) {
             var Data = new Object();
             Data.Num = $scope.number;
+
             Data.Str = $scope.string;
             $http({
                 url: '/api/HomeApi/Post',                
                 method: 'POST',
-                data: Data               
-            }).success(function (response) {
+                data: Data            
+
+          }).success(function (response) {
                 console.log(response);
                 angular.element("#confirmButton").addClass("btn-success");
             }).error(function (error) {
                 alert("error " + error);
             });
         }
+
     };   
 
     angular.element("#myForm").kendoValidator({
         rules: {
+
             customRule: function (input) {
                 if (input.is("[name=number]")) {
                     return /^\d+$/.test(input.val());
@@ -96,5 +104,6 @@
             customRule: "Must be number!"
         }
     });
+
 
 }]);

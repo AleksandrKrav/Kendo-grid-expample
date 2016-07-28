@@ -22,6 +22,7 @@ namespace WebApp.Controllers
 
         [HttpPost]
         public string Post([FromBody] Temp temp)
+
         {
             return "String " + temp.Str + " , Number " + temp.Num;
         }          
