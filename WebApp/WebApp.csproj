@@ -191,6 +191,7 @@
     <Content Include="Models\people.json" />
     <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\kendo.all.min.js" />
+    <Content Include="Views\Home\feedItemTemplate.tmpl.htm" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
